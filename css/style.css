@@ -1,0 +1,250 @@
+
+/* media query for responsiveness
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1200px) {}
+*/
+
+/* div one starts */
+
+.navbar-default .navbar-brand{
+    font-weight: bold;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 16px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-shadow: 0 0 1px black;
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand:hover{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 16px;
+    word-spacing: 2px;
+    color: whitesmoke;
+    text-shadow: 0 0 1px black;
+}
+
+.backgroundHome{
+    background-image: url(../images/slide2.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-default{
+    background-color: #191D20;
+    border-color: transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-default .navbar-nav li a{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 16px;
+    color: grey;
+    word-spacing: 2px;
+    text-shadow: 0 0 1px black;
+}
+
+.navbar-default .navbar-nav li a:focus,
+.navbar-default .navbar-nav li a:hover {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 16px;
+    word-spacing: 2px;
+    color: grey;
+    box-shadow: 0 0 15px grey;
+    text-shadow: 0 0 1px black;
+    animation: btnNav .3s ease-in-out 0s 1 normal forwards;
+}
+.navbar-default .navbar-nav li .open a:focus,
+.navbar-default .navbar-nav li .open a:hover {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 16px;
+    word-spacing: 2px;
+    box-shadow: 0 0 15px grey;
+    text-shadow: 0 0 1px black;
+    animation: btnNav .3s ease-in-out 0s 1 normal forwards;
+}
+@keyframes btnNav {
+    from {
+        color: grey;
+    }
+    to {
+        color: white;
+    }
+}
+
+.contentDivOne{
+    margin-top: 25%;
+}
+
+.luxurious{
+    font-size: 18px;
+    color: white;
+}
+
+.finest{
+    font-size: 45px;
+    color: white;
+}
+
+.normalP{
+    color: white;
+}
+
+/* div one ends */
+
+/* div two starts */
+
+.divTwo{
+    background-color: #3B434A;
+    min-height: 450px;
+}
+
+.smallHeader{
+    color: white;
+    font-size: 30px;
+}
+
+
+.contentTwo{
+    margin-top: 10%;
+}
+
+/* div two ends */
+
+/* div three starts */
+
+.divThree{
+    background-color: #3B494A;
+    min-height: 450px;
+    padding-bottom: 8%;
+}
+
+.whiteMenuRight{
+    font-size: 30px;
+    margin-top: 20%;
+    color: white;
+}
+
+/* div three ends */
+
+/* div four starts */
+
+.divFour{
+    background-color: #191D20;
+}
+
+
+/* div seven starts */
+
+
+.divSeven{
+    min-height: 200px;
+    background-color: #191D20;
+}
+
+.btnContact{
+    margin-top: 6%;
+    border-radius: 5%;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 25px 10px 25px;
+}
+
+.btnContact:hover{
+    margin-top: 6%;
+    border-radius: 5%;
+    border: 1px solid #191D20;
+    color: white;
+    padding: 10px 25px 10px 25px;
+}
+
+.btnViewMore{
+    margin-top: 2%;
+    border-radius: 5%;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 25px 10px 25px;
+}
+
+.btnViewMore:hover{
+    background-color: #191D20;
+    margin-top: 2%;
+    border-radius: 5%;
+    border: 1px solid #191D20;
+    color: white;
+    padding: 10px 25px 10px 25px;
+}
+
+.minHeightO{
+    padding-top: 10%;
+    min-height: 400px;
+    padding-bottom: 10%;
+}
+
+.minHeight{
+    padding-top: 5%;
+    min-height: 400px;
+    padding-bottom: 5%;
+    background-color: #3B434A;
+}
+
+.marginTop{
+    margin-top: 10%;
+}
+
+.divContact{
+    background-color: #3B494A;
+    padding-top: 5%;
+    min-height: 600px;
+    padding-bottom: 5%;
+}
+.icons{
+    padding: 3%;
+    color: white;
+}
+
+.smallHeaderSpecial{
+    color: white;
+    font-size: 24px;
+}
+
+.btnContactRight{
+    margin-top: 6%;
+    border-radius: 5%;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 30px 10px 30px;
+}
+
+.btnContactRight:hover{
+    margin-top: 6%;
+    border-radius: 5%;
+    border: 1px solid #191D20;
+    background-color: #191D20;
+    color: white;
+    padding: 10px 30px 10px 30px;
+}
+
+ .googleMaps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .googleMaps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 80% !important;
+    }
+    
+    .contentOurTeam{
+        margin-top: 7%;
+    }
